@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +13,10 @@ html, body{
 }
 
 .albumCover{
-    width: 70vw;
+    width: 100vw;
     height:100vh;
     background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -22,16 +24,79 @@ html, body{
 .front {
     height: 100%;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: aqua;
-    border: 1px solid black
 }
+.albumPhoto{
+    height: 50%;
+    border: 5px solid black;
+}
+
+.albumTitles {
+    font-size: 1em;
+    text-align: center;
+}
+.albumTitles > h1{
+    font-weight: 700;
+}
+.albumTitles > h2{
+    font-weight: 100;
+}
+
 .spine{
     height: 100%;
     width: 15%;
-    border: 1px solid black
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
 }
+.spine > h1{ 
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.spine > h2{ 
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+
 .underside{
     height: 100%;
     width: 25%;
     border: 1px solid black
+}
+
+@media screen and (min-width: 481px) {
+    .albumCover{
+        width: 100vw;
+    }
+    .albumPhoto{
+        height: 25%;
+        border: 5px solid black;
+    }
+}
+@media screen and (min-width: 760px) {
+    .albumCover{
+        width: 100vw;
+    }
+    .albumPhoto{
+        height: 50%;
+        border: 5px solid black;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .albumCover{
+        width: 70vw;
+    }
+    .albumPhoto{
+        height: 50%;
+        border: 5px solid black;
+    }
 }
