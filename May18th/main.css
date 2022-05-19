@@ -36,7 +36,7 @@ html, body{
     margin: .8em 2em 3em;
 }
 .albumTitles {
-    font-size: .8em;
+    font-size: 1em;
     text-align: center;
     
 }
@@ -53,28 +53,27 @@ html, body{
 }
 
 .spine{
-    height: 10%;
-    /* width: 100%; */
+    height: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 2em;
+    justify-content: center;
+    margin-left: 1em;
     /* writing-mode: vertical-rl;
     text-orientation: mixed; */
 
 }
 .spine > h1{ 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .spine > h2{ 
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
-
+    letter-spacing: 2px;
 }
 
 .underside{
-    height: 15%;
+    height: 25%;
     width: 95%;
     display: flex;
     flex-direction: row;
@@ -87,6 +86,7 @@ html, body{
     display: flex;
     flex-direction: row;
     width: 45%;
+    height: 100%;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -103,6 +103,7 @@ html, body{
     text-decoration: none;
     font-style: none;
     list-style: none;
+    line-height: 1rem;
     font-size: .7rem;
     font-weight: 300;
 }
@@ -121,6 +122,10 @@ html, body{
     .albumPhoto{
         height: 60%;
         border: 5px solid black;
+    }
+    .albumTitles > h2{
+        font-weight: 100;
+        margin-bottom: 3em;
     }
     .underside{
         align-items: center;
