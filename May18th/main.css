@@ -121,8 +121,14 @@ html, body{
         width: 100vw;
     }
     .albumPhoto{
-        height: 25%;
+        height: 60%;
         border: 5px solid black;
+    }
+    .underside{
+        align-items: center;
+    }
+    .dolbyIcon{
+        margin-right: 1em;
     }
 }
 @media screen and (min-width: 760px) {
@@ -130,7 +136,7 @@ html, body{
         width: 100vw;
     }
     .albumPhoto{
-        height: 50%;
+        height: 70%;
         border: 5px solid black;
     }
 }
