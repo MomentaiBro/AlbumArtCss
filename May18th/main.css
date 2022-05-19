@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;400;700&display=swap');
 
 *{
     margin: 0;
@@ -14,46 +15,52 @@ html, body{
 
 .albumCover{
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
 .front {
-    height: 100%;
-    width: 60%;
+    height: 80vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    /* justify-content: space-evenly; */
     background-color: aqua;
 }
 .albumPhoto{
-    height: 50%;
+    height: 55%;
     border: 5px solid black;
+    margin: 1em 2em 3em;
 }
-
 .albumTitles {
-    font-size: 1em;
+    font-size: .8em;
     text-align: center;
+    
 }
 .albumTitles > h1{
     font-weight: 700;
 }
 .albumTitles > h2{
     font-weight: 100;
+    margin-bottom: 4em;
+}
+.subtext {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
 }
 
 .spine{
-    height: 100%;
-    width: 15%;
+    height: 10%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
 
 }
 .spine > h1{ 
@@ -66,11 +73,12 @@ html, body{
 
 }
 
-
 .underside{
     height: 100%;
     width: 25%;
-    border: 1px solid black
+    border: 1px solid black;
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
 }
 
 @media screen and (min-width: 481px) {
@@ -91,6 +99,17 @@ html, body{
         border: 5px solid black;
     }
 }
+
+/* for later */
+/* .albumCover{
+    width: 100vw;
+    height:100vh;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
 @media screen and (min-width: 1025px) {
     .albumCover{
         width: 70vw;
