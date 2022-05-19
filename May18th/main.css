@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 html, body{ 
@@ -75,14 +75,12 @@ html, body{
 
 .underside{
     height: 15%;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-end;
     margin-bottom: 1em;
-    /* writing-mode: vertical-rl;
-    text-orientation: mixed; */
 }
 
 .side{
@@ -110,8 +108,8 @@ html, body{
 }
 
 .dolbyIcon{
-    max-width: 7%;
-    max-height: 50%;
+    width: 7%;
+    height: 50%;
     align-self: flex-end;
     margin-right: .5em;
 }
@@ -153,10 +151,89 @@ html, body{
 
 @media screen and (min-width: 1025px) {
     .albumCover{
-        width: 70vw;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 60vw;
+    }
+    .front {
+        width: 65%;
+        height: 100%;
     }
     .albumPhoto{
         height: 50%;
         border: 5px solid black;
+        margin: 2em 2em 5em;
+    }
+    .albumTitles {
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+    .albumTitles > h1{
+        font-weight: 700;
+    }
+    .albumTitles > h2{
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+    .subtext {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-weight: 400;
+        align-self: center;
+        justify-self: flex-start;
+    }
+    .spine{
+        width: 10%;
+        height: 90%;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        padding-top: 2em
+    }
+    .spine > h1{ 
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .spine > h2{ 
+        font-size: 1.5rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+    
+    }
+    .underside{
+        width: 25%;
+        height: 100%;
+        padding-top: 2em;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .side{
+        height: 45%;
+        justify-content: flex-start;
+        align-items: center;
+    }  
+    .bigLetter{
+        height: 15%;
+        width: 100%;
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+    .tracks {
+        height: 100%;
+        text-decoration: none;
+        font-style: none;
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 300;
+        padding-top: 2em;
+    }
+    .dolbyIcon{
+        writing-mode: vertical-rl;
+        transform: rotate(90deg);
+        text-orientation: mixed;
+        width: 4rem;
+        margin-left: 2em;
     }
 }
