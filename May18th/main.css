@@ -40,6 +40,14 @@ html, body{
     text-align: center;
     
 }
+.albumTitles a{
+    text-decoration: none;
+    color: #000;
+}
+.albumTitles a:hover, h1:hover, h2:hover {
+    text-decoration: underline;
+    color: #000;
+}
 .albumTitles > h1{
     font-weight: 700;
 }
