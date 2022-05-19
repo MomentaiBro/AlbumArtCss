@@ -22,5 +22,5 @@ I'm trying to figure out the best way to keep everything in one place so I think
 
 Below are the links to the videos I listen to. Give them a listen! They're absolutely brilliant for coding background music.
 
-    1. [Macroblank - RARE PSALMS COLLECTION VOL​.​3](https://www.youtube.com/watch?v=y9CabgJC3oQ&t=1536s&ab_channel=Macroblank)
-    2. Macroblank - RARE PSALMS COLLECTION VOL​.​3 https://www.youtube.com/watch?v=y9CabgJC3oQ&t=1536s&ab_channel=Macroblank
+    [Macroblank - RARE PSALMS COLLECTION VOL​.​3](https://www.youtube.com/watch?v=y9CabgJC3oQ&t=1536s&ab_channel=Macroblank)
+    Link https://www.youtube.com/watch?v=y9CabgJC3oQ&t=1536s&ab_channel=Macroblank
