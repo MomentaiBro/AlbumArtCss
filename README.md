@@ -8,7 +8,7 @@ My name is Alexander. I'm a frontend engineer. I really enjoy art history and gr
 
 ## The Specs
 
-Nothing fancy folks. I just use HTML / CSS for everything. They're definitely not perfect, but it's just a way to practice new design techniques and have fun. This is truly just a hobby project.
+Nothing fancy folks. I just use HTML / CSS for everything. They're definitely not perfect, but it's just a way to practice new design techniques and have fun. This is truly just a hobby project. Also they're mobile responsive!!!!
 
 ## How To Navigate
 
