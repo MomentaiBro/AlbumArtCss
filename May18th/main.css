@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html, body{ 
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.albumCover{
+    width: 75vw;
+    height:100vh;
+    background-color: #fff;
+
+}

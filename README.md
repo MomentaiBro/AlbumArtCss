@@ -1,2 +1,3 @@
 # AlbumArtCss
-This is my way of practicing my CSS skills. 
+
+This is my way of practicing my CSS skills.
