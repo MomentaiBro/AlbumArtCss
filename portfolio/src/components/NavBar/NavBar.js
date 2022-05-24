@@ -6,13 +6,16 @@ export const NavBar = () => {
     <div className='NavBar'>
     
         <div className='title'>
-          Title
+          Making
+          <br /> Art 
+          <br /> with 
+          <br /> CSS
         </div>
         <nav>
           <ul>
-            <li><a href="">One</a></li>
-            <li><a href="">Two</a></li>
-            <li><a href="">Three</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Artwork</a></li>
           </ul>
         </nav>
     
