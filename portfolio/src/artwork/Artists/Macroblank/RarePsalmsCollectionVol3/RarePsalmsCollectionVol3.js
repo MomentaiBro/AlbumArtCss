@@ -5,7 +5,7 @@ import dolbyIcon from './assets/dolby-icon.svg'
 
 
 
-export const May18 = () => {
+export const RPCV3 = () => {
   return (
     <div className="albumCover">
         <main className="front">
