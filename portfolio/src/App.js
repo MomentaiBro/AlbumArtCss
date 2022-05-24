@@ -1,7 +1,7 @@
 
 import './App.css';
-import { RPCV3 } from './artwork/Artists/Macroblank/RarePsalmsCollectionVol3/RarePsalmsCollectionVol3';
-import NavBar from './components/NavBar/NavBar';
+import  {RPCV3}  from './artwork/Artists/Macroblank/RarePsalmsCollectionVol3/RarePsalmsCollectionVol3';
+import {NavBar} from './components/NavBar/NavBar';
 
 function App() {
   return (
