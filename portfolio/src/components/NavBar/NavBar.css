@@ -1,46 +1,74 @@
 .NavBar{
-    height: 100vh;
-    width: 25%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
+}
+
+.title{
+    border: 1px solid green;
+}
+
+nav {
+    border: 1px solid peru;
+}
+nav > ul {
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .NavBar{
+        height: 20vh;
+        flex-direction: row;
 
+    }
+    .title{
+        height: 100%;
+        width: 30%;
+    }
+    nav {
+        width: 70%;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .NavBar{
+        height: 
 
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .NavBar{
+        height: 
 
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* .NavBar{
+    .NavBar{
         height: 100vh;
         width: 25%;
         border: 1px solid red;
         display: flex;
         flex-direction: column;
-    } */
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* .NavBar{
+    .NavBar{
         height: 100vh;
         width: 25%;
         border: 1px solid red;
         display: flex;
         flex-direction: column;
-    } */
+    }
 }
