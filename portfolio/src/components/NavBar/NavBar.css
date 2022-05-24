@@ -1,5 +1,7 @@
 .NavBar{
     height: 100vh;
-    width: 30%;
+    width: 25%;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
 }

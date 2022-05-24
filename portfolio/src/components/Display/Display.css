@@ -1,0 +1,28 @@
+.Display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.window{
+    height: 75vh;
+    width: 90%;
+    border: 1px solid brown;
+    margin-top: 5vh;
+    /* margin-bottom: 2.5vh; */
+}
+
+.description{
+    border: 1px solid violet;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+        
+}

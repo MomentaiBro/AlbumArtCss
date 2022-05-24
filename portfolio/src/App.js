@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <h1>Welcome to my portfolio of Ablum Covers made with CSS</h1>
       <Display />
       {/* <RPCV3 /> */}
     </div>
