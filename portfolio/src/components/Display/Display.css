@@ -1,7 +1,7 @@
 .Display{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     border: 1px solid blue;
 }
@@ -11,32 +11,33 @@
 }
 
 .description{
-    border: 1px solid violet;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid violet;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Display{
-        height: 100vh;
+        height: 80vh;
         width: 100%;
-        border: 1px solid blue;
     }
     .window{
-        height: 90%;
-        width: 90%;
-        border: 1px solid brown;
+        height: 60%;
+        width: 85%;
     }
     .description{
-        border: 1px solid violet;
+        height: 15%;
         width: 100%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
+    }
+    .description > h1{
+        font-size: 1.2rem;
+    }
+    .description > p{
+        font-style: italic;
+        font-size: .8rem;
     }
 }
 

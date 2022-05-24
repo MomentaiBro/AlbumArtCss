@@ -9,7 +9,8 @@ export const Display = () => {
       </main>
 
       <section className='description'>
-        description
+        <h1>Title of Work</h1>
+        <p>Description of work</p>
       </section>
     </div>
   )
