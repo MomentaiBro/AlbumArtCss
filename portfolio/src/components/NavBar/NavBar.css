@@ -1,5 +1,108 @@
 .NavBar{
-    height: 100vh;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
     border: 1px solid red;
+}
+
+.title{
+    border: 1px solid green;
+}
+
+nav {
+    border: 1px solid peru;
+    display: flex;
+    justify-content: center;
+
+}
+nav > ul {
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .NavBar{
+        height: 20vh;
+        flex-direction: row;
+
+    }
+    .title{
+        height: 100%;
+        width: 30%;
+        color: green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-transform: uppercase;
+        text-align: left;
+        padding-left: 2%;
+        font-size: 1.8rem;
+
+    }
+    nav {
+        width: 70%;
+        height: 100%;
+
+    }
+
+    nav > ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-left: 20%;
+    }
+
+    nav > ul > li {
+
+
+    }
+    nav > ul > li > a {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .NavBar{
+        height: 
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .NavBar{
+        height: 
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .NavBar{
+        height: 100vh;
+        width: 25%;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .NavBar{
+        height: 100vh;
+        width: 25%;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
 }
