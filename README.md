@@ -14,9 +14,8 @@ Nothing fancy folks. I just use HTML / CSS for everything. They're definitely no
 
 I'm trying to figure out the best way to keep everything in one place so I think, for the time being, I'm going to create a new folder for each album cover. If you'd like to see the artwork...
 
-    1. cd into a folder of your choice
-    2. open up the command line
-    3. run lite-server to see the artwork.
+    1. cd into portfolio
+    2. in the terminal run npm start
 
 ## Music Credit
 
