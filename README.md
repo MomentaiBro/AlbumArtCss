@@ -4,7 +4,7 @@
 
 Thanks for stopping by and checking out my artwork.
 
-My name is Alexander. I'm a frontend engineer. I really enjoy art history and graphi design. Sometimes when I get stressy spaghetti, I like to listen to very chill music -- think, vaporwave, chill wave, chill anime beats, etc. Recently, I've found some great artists that i've been vibing with so in a way to challenge myself and keeping my css skills sharp, im trying to recreate some of their albium covers.
+My name is Alexander. I'm a frontend engineer. I really enjoy art history and graphic design. Sometimes, when I get stressy spaghetti, I like to listen to chill atmospheric music. Recently, I've found some great artists that i've been vibing with so in a way to challenge myself and keeping my css skills sharp, im trying to recreate some of their albium covers.
 
 ## The Specs
 
